@@ -19,7 +19,7 @@ function Paragraph(){
 
 function SectionOne() {
   return (
-    <div className='flex p-4 md:flex-row'>
+    <div className='flex flex-col p-4 md:flex-row'>
       <Date/>
       <Paragraph/>
     </div>
